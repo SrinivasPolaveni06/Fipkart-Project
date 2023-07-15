@@ -1,0 +1,83 @@
+.form-container {
+  width: 100%;
+  border-radius: 0.75rem;
+  /* background-color: rgba(17, 24, 39, 1); */
+  padding: 2rem;
+  /* color: rgba(243, 244, 246, 1); */
+  color: black !important;
+
+
+}
+
+.Logintitle {
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+  font-family: Roboto !important;
+}
+
+.form {
+  margin-top: 1.5rem;
+}
+
+.input-group {
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.input-group label {
+  display: block;
+  /* color: rgba(156, 163, 175, 1); */
+  color: black;
+  margin-bottom: 4px;
+}
+
+.input-group input {
+  width: 100%;
+  border-radius: 0.375rem !important;
+  border: 1px solid rgba(55, 65, 81, 1) !important;
+  outline: 0;
+  /* background-color: rgba(17, 24, 39, 1); */
+  background-color: white !important;
+  padding: 0.75rem 1rem;
+  /* color: rgba(243, 244, 246, 1); */
+  color: black;
+  margin-bottom: 10px;
+}
+
+.input-group input:focus {
+  border-color: rgb(13, 153, 29) !important;
+}
+
+.input-group textarea {
+  width: 100%;
+  border-radius: 0.375rem !important;
+  border: 1px solid rgba(55, 65, 81, 1) !important;
+  outline: 0;
+  /* background-color: rgba(17, 24, 39, 1); */
+  background-color: white !important;
+  padding: 0.75rem 1rem;
+  /* color: rgba(243, 244, 246, 1); */
+  color: black;
+  margin-bottom: 10px;
+}
+
+.input-group textarea:focus {
+  border-color: rgb(13, 153, 29) !important;
+}
+
+
+
+.addressSubmit {
+  display: block;
+  width: 100%;
+  background-color: #2874f0;
+  padding: 0.75rem;
+  text-align: center;
+  color: white;
+  border: none;
+  border-radius: 0.375rem;
+  font-weight: 600;
+}

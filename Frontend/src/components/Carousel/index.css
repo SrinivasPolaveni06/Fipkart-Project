@@ -1,0 +1,24 @@
+.container1{
+    width: 100%;
+    height: 280px;
+}
+.carouselImage{
+    width: 99%;
+    height: 180px !important;
+    object-fit: fill;
+    background-position: center;
+    object-position: 10px 10%;
+   
+}
+
+@media screen and (min-width:992px) {
+    .carouselImage{
+        width: 99%;
+        height: 280px !important;
+        object-fit: fill;
+        background-position: center;
+        object-position: 10px 10%;
+       
+    }
+}
+

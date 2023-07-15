@@ -1,0 +1,17 @@
+.headerContainer{
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    width: 100%;
+
+}
+@media screen and (min-width:768px) {
+    .headerContainer{
+        display: flex !important;
+        
+        flex-direction: row !important;
+        justify-content: space-evenly !important;
+        flex-wrap: no-wrap !important;
+    
+    }
+}

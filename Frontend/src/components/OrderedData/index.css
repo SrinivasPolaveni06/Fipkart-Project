@@ -1,0 +1,38 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 10px;
+}
+
+.Ordered-Success-container {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Ordered-Success-icon {
+  color: #07CD0D;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.Ordered-Success-heading {
+  margin: 8px;
+  font-style: italic;
+}
+
+.Continue-To-Book {
+  background-color: #2874f0 !important;
+  color: #fff !important;
+}
+
+.Continue-To-Book {
+  background-color: #2874f0 !important;
+  color: #fff !important;
+}

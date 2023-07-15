@@ -1,0 +1,48 @@
+/* li{
+    list-style-type: none;
+} */
+.Grocerys{
+  width: 100%;
+}
+.product-card{
+    border-radius: 5px;
+    /* //border: 1px solid; */
+    
+}
+.SpecialPrice{
+    font-weight: 500;
+    font-size: 14px;
+}
+.SpecialPrice>span{
+   color: green;
+}
+.price{
+    font-weight: 500;
+    font-size: 14px;
+    color: red;
+    /* text-decoration-color: rgb(246, 245, 248); */
+    text-decoration: line-through;
+    
+}
+.cartBtn{
+    background-color:#ff9f00;
+    font-size: 12px;
+    font-weight: 500;
+}
+.BUYBtn{
+    background-color: rgb(251,100,27);
+    font-size: 12px;
+    font-weight: 500;
+    
+}
+.cartBtn:hover {
+    background-color: #ff9f00 !important;
+    font-size: 12px !important;
+    transform: none !important;
+}
+
+.BUYBtn:hover {
+    background-color: rgb(251, 100, 27) !important;
+    font-size: 12px !important;
+    transform: none !important;
+}

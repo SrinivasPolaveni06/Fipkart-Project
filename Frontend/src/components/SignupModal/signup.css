@@ -1,0 +1,9 @@
+.SignBtn{
+    background-color: transparent;
+    font-weight: 650;
+    text-decoration: underline;
+    font-size: 17px;
+    color:rgb(167,139,250);
+    border: 0px;
+    font-family: Roboto;
+}

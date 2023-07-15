@@ -1,0 +1,72 @@
+.cartRemoveBtn4 {
+    background-color: #ff9f00;
+    font-size: 12px;
+    font-weight: 500;
+    width: 75%;
+}
+
+.BUYBtn4 {
+    background-color: rgb(251, 100, 27);
+    font-size: 12px;
+    font-weight: 500;
+    width: 75%;
+
+}
+
+.cartRemoveBtn4:hover {
+    background-color: #ff9f00 !important;
+
+    font-size: 12px !important;
+    transform: none !important;
+}
+
+.BUYBtn4:hover {
+    background-color: rgb(251, 100, 27) !important;
+    font-size: 12px !important;
+    transform: none !important;
+}
+
+.Itemcard4 {
+    height: 450px;
+}
+
+.Itemcard5 {
+    padding: 20px;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.02), 0px 0px 0px 1px rgba(27, 31, 35, 0.15);
+    border-radius: 8px !important;
+}
+
+.Itemcard5:hover {
+
+    /* box-shadow:  0.5px 0.5px 5px 5px; */
+    border-radius: 8px;
+    cursor: pointer;
+    transform: scale(1.01);
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset !important;
+    padding: 20px;
+}
+
+.productImage3 {
+    width: 120px !important;
+    height: 100px;
+    object-fit: contain;
+
+}
+
+.productImage3:hover {
+    /* width: 45%; */
+    transform: scale(1.08);
+}
+
+body {
+    margin: 0px !important;
+}
+
+@media screen and (max-width:992px) {
+    .Itemcard5 {
+        padding: 20px !important;
+        box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.02), 0px 0px 0px 1px rgba(27, 31, 35, 0.15);
+        border-radius: 8px !important;
+    }
+}

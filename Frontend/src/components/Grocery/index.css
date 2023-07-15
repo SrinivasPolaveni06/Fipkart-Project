@@ -1,0 +1,71 @@
+/* li{
+    list-style-type: none;
+} */
+.Grocerys {
+    width: 100%;
+}
+
+.product-card {
+    border-radius: 5px;
+    /* //border: 1px solid; */
+    min-height: 400px;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.02), 0px 0px 0px 1px rgba(27, 31, 35, 0.15);
+
+}
+
+.product-card:hover {
+    transform: scale(1.01);
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset !important;
+    /* box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 2px 8px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 1px rgba(255, 255, 255, 0.1) !important; */
+    /* box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset !important; */
+}
+
+.SpecialPrice {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.SpecialPrice>span {
+    color: green;
+}
+
+.price {
+    font-weight: 500;
+    font-size: 14px;
+    color: red;
+    /* text-decoration-color: rgb(246, 245, 248); */
+    text-decoration: line-through;
+
+}
+
+.productImage {
+    width: 130px;
+    height: 130px;
+    object-fit: contain;
+    border-radius: 12px !important;
+}
+
+.cartBtn {
+    background-color: #ff9f00;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.BUYBtn {
+    background-color: rgb(251, 100, 27);
+    font-size: 12px;
+    font-weight: 500;
+
+}
+
+.cartBtn:hover {
+    background-color: #ff9f00 !important;
+    font-size: 12px !important;
+    transform: none !important;
+}
+
+.BUYBtn:hover {
+    background-color: rgb(251, 100, 27) !important;
+    font-size: 12px !important;
+    transform: none !important;
+}

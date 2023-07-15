@@ -1,0 +1,33 @@
+table,
+th,
+td {
+  border: 1px solid black !important;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 10px;
+  vertical-align: middle !important;
+}
+
+.Ordered-Success-container {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Ordered-Success-icon {
+  color: #07CD0D;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.Ordered-Success-heading {
+  margin: 8px;
+  font-style: italic;
+}
+
+/* td {
+  margin: auto !important;
+} */

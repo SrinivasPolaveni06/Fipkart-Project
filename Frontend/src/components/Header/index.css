@@ -1,0 +1,61 @@
+.categorysButton {
+    background-color: transparent;
+    border: 0px;
+    text-align: center;
+}
+
+.categoryTitle {
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+
+.categorysButton:hover {
+    color: #2874f0;
+}
+
+.categorysImage {
+    width: 60px;
+    transition: all;
+}
+
+.categorysImage:hover {
+    opacity: 0.7;
+}
+
+@media screen and (max-width:768px) {
+    .categoryTitle {
+        font-size: 12px;
+        font-weight: 600;
+
+    }
+
+    .categorysImage {
+        width: 40px;
+        transition: all;
+    }
+
+    .categorysImage:hover {
+        opacity: 0.7;
+        /* background-color: transparent; */
+    }
+
+    .header-small-devices {
+        display: block;
+    }
+
+    .header-lorge-devices {
+        display: none;
+    }
+}
+
+@media screen and (min-width:769px) {
+    .header-small-devices {
+        display: none;
+    }
+
+    .header-lorge-devices {
+        display: block;
+    }
+}
